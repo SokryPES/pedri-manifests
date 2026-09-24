@@ -3,9 +3,10 @@ replicaCount: 2
 image:
   repository: sokrypes/pedri-app
   pullPolicy: Always
-  tag: "latest" 
+  tag: "latest"
 
 service:
   type: NodePort
   port: 80
+  targetPort: 80
   nodePort: 30080
