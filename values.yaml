@@ -14,3 +14,9 @@ service:
 serviceAccount:
   create: false
   name: ""
+
+httpRoute:
+  enabled: false
+
+httpRoute:
+  enabled: false
