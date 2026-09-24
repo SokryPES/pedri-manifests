@@ -1,6 +1,6 @@
 apiVersion: v2
 name: pedri-app
-description: A Helm chart for pedri-app deployment
+description: A Helm chart for Pedri App GitOps Deployment
 type: application
 version: 0.1.0
 appVersion: "1.0.0"

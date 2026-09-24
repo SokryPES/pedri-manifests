@@ -1,14 +1,15 @@
-replicaCount: 2
+replicaCount: 1
 
 image:
   repository: sokrypes/pedri-app
+  tag: "latest"
   pullPolicy: Always
-  tag: "latest" 
 
 service:
-  type: NodePort
+  type: ClusterIP
   port: 80
-  nodePort: 30099
+  targetPort: 80
 
-httpRoute:
-  enabled: false
+containerPort: 80
+
+resources: {}
