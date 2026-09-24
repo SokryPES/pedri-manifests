@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: sokrypes/pedri-app
-  tag: "latest"
+  tag: "3"
   pullPolicy: Always
 
 service:
